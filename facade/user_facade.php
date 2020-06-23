@@ -65,7 +65,6 @@
                         window.location="http://localhost/web/index.html";
                         </script>';
                 }
-                //echo "<br/>select select";
             break;
         }
     }
