@@ -1,0 +1,394 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        -0.98349857330322266,
+        1.4041844606399536,
+        0.33651542663574219
+      ],
+      "min": [
+        -6.5516061782836914,
+        0.25440621376037598,
+        -5.361241340637207
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 44760,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        0.99919235706329346,
+        1,
+        0.99841922521591187
+      ],
+      "min": [
+        -0.99784469604492188,
+        -1,
+        -0.99748736619949341
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        0.99995583295822144,
+        0.9985089898109436,
+        0.98619276285171509,
+        1
+      ],
+      "min": [
+        -0.65495836734771729,
+        -0.99966281652450562,
+        -0.96800482273101807,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        0.68345916271209717,
+        0.99950051307678223
+      ],
+      "min": [
+        0.00034156441688537598,
+        0.00049948692321777344
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 20088,
+      "max": [
+        3729
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 89520,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        -0.6428992748260498,
+        0.76002460718154907,
+        0.49245038628578186
+      ],
+      "min": [
+        -5.4981174468994141,
+        0.060391783714294434,
+        -6.2039084434509277
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 134280,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        0.99651587009429932,
+        1,
+        0.9992329478263855
+      ],
+      "min": [
+        -0.99680393934249878,
+        -1,
+        -0.99833625555038452
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 59680,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        0.90750223398208618,
+        0.97553473711013794,
+        0.75627166032791138,
+        1
+      ],
+      "min": [
+        -0.94372457265853882,
+        -0.99969500303268433,
+        -0.99999505281448364,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 29840,
+      "componentType": 5126,
+      "count": 3730,
+      "max": [
+        0.67206084728240967,
+        0.9407658576965332
+      ],
+      "min": [
+        0.0067216502502560616,
+        0.030367612838745117
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 80352,
+      "componentType": 5125,
+      "count": 20088,
+      "max": [
+        3729
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "abdillaamy (https://sketchfab.com/abdillaamy)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/bd695b3f7ecf48dab7898c0a8b9a9840",
+      "title": "Latex Gloves Fallen"
+    },
+    "generator": "Sketchfab-3.18.5",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 160704,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 59680,
+      "byteOffset": 160704,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 179040,
+      "byteOffset": 220384,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 119360,
+      "byteOffset": 399424,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 518784,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/blinn4_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Glove_2_texture_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Glove_2_texture",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.68314393940000007
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "blinn4",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.31685606059999999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Gloves2_Glove_2_texture_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Gloves2_blinn4_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "4052b092865a4a04ae4d1c6bda145094.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "name": "Gloves2"
+    },
+    {
+      "mesh": 0,
+      "name": "Gloves2_Glove_2_texture_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Gloves2_blinn4_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+

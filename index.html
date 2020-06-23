@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolIce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/imagenes/Gotita.png">
+</head>
+<body>
+  
+  
+    <div class="login-container">
+        <div class="logo-container">
+            <img src="assets/imagenes/Logo.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+          <form action="facade/user_facade.php?action=select" method="POST">
+            <label for="uname"><b>Usuario o Correo</b></label>
+            <input type="text" placeholder="ejemplo@correo.com" id="Correo" name="Correo" required>
+      
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" placeholder="*************************" id="Contraseña" name="Contraseña" required>
+           
+            <div class="card-right">
+              <label style="text-align: center" class="float-left">¿No tienes una cuenta?
+                <br><a href="links/registrarse.html">Registrarse</a>
+              </label>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...sending" class="entrarbtn">Entrar</button>
+            </div>
+          </form>
+        </div>
+            
+    </div>
+</body>
+</html>

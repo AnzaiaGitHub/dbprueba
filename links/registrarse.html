@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolIce</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/imagenes/Gotita.png">
+</head>
+<body >
+    <div class="signup-container">
+        <div class="logo-container">
+            <img src="../assets/imagenes/Logo.png" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+        <form action="../facade/user_facade.php?action=insert" method="POST">
+          
+            <label for="Nombre"><b>Nombre</b></label>
+            <input type="text" id="Nombre" placeholder="Alexandra" name="Nombre" required>
+        
+            <label for="uname"><b>Apellido</b></label>
+            <input type="text" id="Apellido"placeholder="Lozano Tinoco" name="Apellido" required>
+            
+            <label for="uname"><b>Sexo</b></label>
+            <input type="text" id="Sexo"placeholder="M/F" name="Sexo" >
+        
+            <label for="uname"><b>Fecha de nacimiento</b></label>
+            <input type="text" id="FechaNacimiento"placeholder="AAAA-MM-DD" name="FechaNacimiento">
+
+            <label for="uname"><b>Usuario o Correo</b></label>
+            <input type="text" id="Correo"placeholder="ejemplo@correo.com" name="Correo" required>
+        
+            <label for="psw"><b>Contraseña</b></label>
+            <input type="password" id="Contraseña" placeholder="*************************" name="Contraseña" required>
+            
+            <!--<label for="uname"><b>Confirmar contraseña</b></label>
+            <input type="password" placeholder="*************************" name="psw" required>-->
+            <div class="card-right">
+                <label style="text-align: center" class="float-left">¿Ya tienes una cuenta?
+                <br><a href="../index.html">Inicia Sesión</a>
+                </label>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...sending" class="entrarbtn">Registrarse</button>
+            </div>
+        </form>
+        </div> 
+    </div>
+</body>
+</html>

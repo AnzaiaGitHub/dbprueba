@@ -1,0 +1,147 @@
+body{
+    background-image: url("../assets/imagenes/27-scaled.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+   /* margin:0px;
+    padding: 0px;*/
+  }
+
+  ul{
+    list-style:none;
+  }
+
+  .nav ul{
+    overflow: hidden;
+  }
+
+  .nav > li{
+    float: right;
+    padding-top: 35px;
+  }
+
+  .nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+  }
+
+  .nav li:hover >ul {
+    display:block;
+  }
+
+  .nav li ul li{
+    position: relative;
+  }
+
+  .nav li a{
+    color: rgb(64,161,199);
+    text-decoration: none;
+    padding: 20px 20px;
+  }
+
+  .nav li ul li ul{
+    left: -150px;
+    top: -20px;
+  }
+
+  #Exit{
+    z-index: 10;
+  }
+  /* Create three equal columns that floats next to each other */
+  .column {
+    align-items: center;
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+  }
+  
+  .Pasos{
+    background-color: rgba(2,2,2,0.5);
+    border-radius: 15px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row:break-before {
+    display: table;
+    background-color: black;
+  }
+
+  .topnav:hover {
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+  }
+  
+  /*.topnav a {
+    float: right;
+    color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20vw;
+  }*/
+  
+  .topnav a:hover {
+    background-color: #5091bf;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  img.avatar {
+    width: 280px;
+    border-radius: 15px;
+  }
+
+  button {
+    align-items: center;
+    padding: 15px 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(64,161,199);
+    color:white;
+    cursor: pointer;
+    width: 18%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4), 0 6px 4px 0 rgba(0, 0, 0, 0.3);
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+
+  canvas { 
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+  }
+  a{
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  .card-body{
+    font-family: helvetica;
+    font-weight: bold;
+    color: darkblue;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.7);
+  }

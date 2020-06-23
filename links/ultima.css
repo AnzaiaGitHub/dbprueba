@@ -1,0 +1,38 @@
+body{
+    background-image: url("../assets/imagenes/agua-agua-de-mar-agua-salada-horizonte-7321.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr.datos, td.datos {
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+tr.titulo, td.titulo{
+  border-collapse: collapse;
+  border:1px solid #ddd;
+  border-radius: 25px;
+}
+
+.Informes-container{
+    text-align: center;
+    border: white 1px solid;
+    width: 70vw;
+    padding-top: 20px;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0,0.6);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.8), 0 6px 8px 0 rgba(0, 0, 0, 0.8);
+}
+img.avatar {
+    width: 35%;
+    border-radius: 10%;
+}
+.logo-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}

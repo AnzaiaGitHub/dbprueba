@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolIce-Informes!</title>
+    <link rel="stylesheet" href="ultima.css">
+    <link rel="icon" href="../assets/imagenes/Gotita.png">
+    <script type="text/javascript" src="../src/main.js"></script>
+</head>
+<body onload="Informes()">
+    <a href="objetos.html"><img src="../assets/imagenes/arrow-back-icon.png" class="back"></a>
+    <div class="logo-container">
+        <img src="../assets/imagenes/Logo.png" alt="Avatar" class="avatar">
+    </div>
+    <div id="Informes" class="Informes-container" action="../facade/user_facade.php?action=informes" method="POST">
+    
+        <table>
+            <?php
+            $sql="Select Nombre,Correo,Ingresos from empleado";
+            $result=mysqli_query($conexion,$sql);
+            while($mostrar=mysqli_fetch_array($result)){
+                ?>
+            <tr>
+                <td><?php echo $mostrar['Nombre'] ?></td>
+                <td><?php echo $mostrar['Correo'] ?></td>
+                <td><?php echo $mostrar['Ingresos'] ?></td>
+            </tr>
+
+            <?php } ?>
+
+        </table>
+
+    </div>
+</body>
+</html>

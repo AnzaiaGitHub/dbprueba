@@ -1,0 +1,59 @@
+<?php
+$Correo = $_GET['C'];
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+    <link rel="stylesheet" href="objetos.css">
+    <link rel="icon" href="../assets/imagenes/Gotita.png">
+    <script type="text/javascript" src="../libs/three.js"></script>
+    <script src="../libs/jquery-3.4.1.js"></script>
+    <!-- Add all for GUI -->
+    <script src="../libs/DAT.GUI.min.js"></script>
+    <!--<script src="./libs/Stats.js"></script>-->
+    <!-- Add to load Models -->
+    <script src="../vendors/three.js-master/build/three.min.js"></script>
+    <script src="../vendors/load/OBJLoader.js"></script>
+    <script src="../vendors/load/MTLLoader.js"></script>
+
+    <!--<script src="./vendors/load/GLTFLoader.js"></script>
+    <script src="./vendors/load/DRACOLoader.js"></script>
+    <script src="./vendors/load/FBXLoader.js"></script>-->
+    
+    <!-- orbit controls -->
+    <script type="text/javascript" src="../libs/OrbitControls.js"></script>
+    <!-- main -->
+    <script type="text/javascript" src="../src/main.js"></script>
+</head>
+<body onload="start();">
+    <div class="topnav">
+        <img src="../assets/imagenes/Logo.png" alt="Avatar" class="avatar">
+        <a href="ultima.php"><h8>Informes de ingresos</h8></a>
+        <a id="Bienvenido" href="#about" style="float:right">Bienvenido <?php echo $Correo; ?></a>
+    </div>
+
+    <!-- <div class="login-container">
+        <div class="logo-container">
+            <img src="../assets/imagenes/Logo.png" alt="Avatar" class="avatar">
+          </div>
+    </div>   -->
+        
+    <div class="row">
+      <div class="column">
+        <button class="objeto" onclick="CargarModelo(1)">Objeto 1</button>
+        <button class="objeto" onclick="CargarModelo(2)">Objeto 2</button>
+        <button class="objeto" onclick="CargarModelo(3)">Objeto 3</button>
+        <button class="objeto" onclick="CargarModelo(4)">Objeto 4</button>              
+        <canvas id="myCanvas" width="720" height="450"></canvas>
+      </div>
+      
+      <div class="column">
+        
+        <p id="SomeText">Some text..</p>
+      </div>  
+    </div>
+</body>
+</html>
